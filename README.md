@@ -16,7 +16,7 @@ Integrate your Visual Studio Code projects with Crowdin to optimize the localiza
 ## Features
 
 New component will be introduced in Activity Bar called *Crowdin Explorer*.
-Plugin will scan each workspace for Crowdin specific configuration file and will build tree with source files.
+Plugin will scan each workspace for Crowdin specific configuration file and will build a tree with source files.
 In *Crowdin Explorer* you can upload those files into Crowdin and download translations.
 
 ![Plugin](resources/plugin.png)
@@ -43,7 +43,7 @@ Configuration file example:
 ]
 ```
 
-You also can use environment variables in configuration file [Environmet variables](https://support.crowdin.com/configuration-file/#api-credentials-from-environment-variables):
+You also can use environment variables in the configuration file [Environment variables](https://support.crowdin.com/configuration-file/#api-credentials-from-environment-variables):
 
 ```json
 "project_id_env": "CROWDIN_PROJECT_ID"
@@ -64,7 +64,7 @@ You also can use environment variables in configuration file [Environmet variabl
 
 Project ID can be found in your project settings page.
 
-To generate a new API token in Crowdin, go to your Account Settings.
+To generate a new API token in Crowdin, go to your _Account Settings_.
 
 ## Setup
 
